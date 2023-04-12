@@ -2,9 +2,16 @@
   "env": {
     "browser": true,
     "es2021": true,
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
-  "extends": ["airbnb-base", "prettier"],
+  "extends": [
+    "airbnb-base",
+    "prettier"
+  ],
+  "plugins": [
+    "jest"
+  ],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
